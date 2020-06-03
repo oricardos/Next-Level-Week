@@ -97,8 +97,10 @@ form button {
     font-weight: bold;
     font-size: 16px;
     border: 0;
+    transition: 300ms;
 }
 
 form button:hover {
     cursor: pointer;
+    background-color: #2fb86e;
 }
