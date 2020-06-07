@@ -1,3 +1,19 @@
+body {
+    background-color: #fff;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    background: #f0f0f5;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 16rem;
+    z-index: -1;
+}
+
 #page-search-results {
     width: 90%;
     max-width: 1200px;
@@ -73,13 +89,3 @@ main .card p {
     color: #6c6c80;
 }
 
-body::after {
-    content: "";
-    position: fixed;
-    background: #fff;
-    top: 260px;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-}

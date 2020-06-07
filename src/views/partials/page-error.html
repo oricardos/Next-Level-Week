@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% set pageId = "page-home" %}
+
+{% block styles %}
+    <link rel="stylesheet" href="/styles/page-error.css">
+{% endblock styles %}
+
+{% block content %}
+
+    <div class="content">
+
+        <main>
+            <h1>Desculpe</h1>
+
+            <p>Mas não conseguimos realizar o seu cadastro.</p>
+        </main>
+    </div>
+{% endblock content %}
+
+
+<script>
+    setTimeout(() => {
+        window.location = "/"
+    }, 2000)
+</script>
