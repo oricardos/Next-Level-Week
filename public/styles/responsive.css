@@ -1,4 +1,5 @@
 @media (max-width: 900px) {
+/*page-home*/
     #page-home{
         background-position-x: 70vw;
     }
@@ -11,26 +12,94 @@
     #page-home header a {
         position: absolute;
         bottom: 48px;
-
+        font-size: 14px;
         left: 50%;
         transform: translateX(-50%);
     }
 
     #page-home main {
+        margin: 0 5px;
         align-items: center;
+    }
+
+    #page-home main h1{
+        font-size: 30px;
+    }
+
+    #page-home main p {
+        font-size: 18px;
+    }
+
+/* MODAL */
+    #modal {
+        padding: 0 20px;
+    }
+/* PAGE-CREATE-POINT */
+    #page-create-point header {
+        display: flex;
+    }
+
+    #page-create-point header a {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #page-create-point header a span {
+        margin-right: 5px;
+    }
+
+    #page-create-point form,
+    #page-create-point form fieldset legend {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* #page-create-point form fieldset legend {
+        display: flex;
+        flex-direction: column;
+    } */
+
+    #page-create-point form fieldset legend h2 {
+        margin-bottom: 40px;
+    }
+
+    #page-create-point form .field-group {
+        display: flex;
+        flex-direction: column;
+   }
+
+   #page-create-point form .field-group .field + .field {
+       margin-left: 0;
+   }
+
+   #page-create-point  .items-grid {
+       grid-template-columns: 1fr;
+   }
+
+/* PAGE-SEARCH-RESULTS*/
+    #page-search-results header {
+        display: flex;
+    }
+
+    #page-search-results header a {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #page-search-results header a span {
+        margin-right: 5px;
     }
 
     #page-search-results .cards {
         grid-template-columns: 1fr ;
     }
 
-   #page-create-point field-group {
-        flex-direction: column;
-   }
+    #page-search-results .card {
+        margin-bottom: 40px;
+    }
 
-   #page-create-point field-group .field + field {
-       margin-left: 0;
-   }
 }
 
 @media (min-width: 1700px){

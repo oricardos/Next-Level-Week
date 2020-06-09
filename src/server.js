@@ -41,7 +41,7 @@ server.post("/savepoint", (req, res) => {
     // inserir dados no banco de dados
     // inserir dados na tabela
     const query = `
-        INSERT INTO places (
+        INSERT INT places (
             image,
             name,
             address,

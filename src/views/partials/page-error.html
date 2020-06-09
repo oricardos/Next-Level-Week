@@ -7,20 +7,14 @@
 {% endblock styles %}
 
 {% block content %}
-
     <div class="content">
+         {% include "partials/page-header.html" %}
 
         <main>
-            <h1>Desculpe</h1>
+            <h1>Desculpe, não conseguimos realizar o seu cadastro</h1>
 
-            <p>Mas não conseguimos realizar o seu cadastro.</p>
+            <p>Ocorreu um erro inesperado, tente novamente mais tarde.</p>
         </main>
     </div>
 {% endblock content %}
 
-
-<script>
-    setTimeout(() => {
-        window.location = "/"
-    }, 2000)
-</script>
